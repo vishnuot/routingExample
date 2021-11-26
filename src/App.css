@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Nav-bar {
+  list-style: none;
+  display: flex;
+}
+.Nav-bar li {
+  padding: 10px;
+  margin: 10px;
+}
