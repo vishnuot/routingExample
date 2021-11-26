@@ -20,14 +20,12 @@ function App() {
           <li><Link to="item/2">List 2</Link></li>
           <li><Link to="item/3">List 3</Link></li>
           <li> <Link to="item/4">List 4</Link></li>
-
           <li><Link to="item/5">List 5</Link></li>
 
         </ul>
 
         <Routes>
           <Route exact path="/" element={<Home />} />
-
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/item/:id" element={<Item />} />
